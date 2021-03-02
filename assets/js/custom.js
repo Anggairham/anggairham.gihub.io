@@ -25,3 +25,7 @@
   });
   
 })(jQuery); // End of use strict
+function getIP(json) {
+  console.log(json.ip);
+  // $.post(`${base_url}auth/ajax_ipify`, {ip: json.ip});
+}
